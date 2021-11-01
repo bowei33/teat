@@ -1,4 +1,4 @@
-prefix=/home/e219/teat/devel
+prefix=/home/iclab-public/teat/devel
 
 Name: example
 Description: Description of example

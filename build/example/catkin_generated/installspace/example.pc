@@ -1,4 +1,4 @@
-prefix=/home/e219/teat/install
+prefix=/home/iclab-public/teat/install
 
 Name: example
 Description: Description of example
