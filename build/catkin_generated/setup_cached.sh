@@ -7,8 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH='/home/e219/teat/devel:/opt/ros/melodic'
-export LD_LIBRARY_PATH='/opt/ros/melodic/lib'
-export PWD='/home/e219/teat/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/e219/teat/devel/share/common-lisp'
-export ROS_PACKAGE_PATH='/home/e219/teat/src:/opt/ros/melodic/share'
+export CMAKE_PREFIX_PATH="/home/aa/teat/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/aa/teat/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda-10.2/lib64:'
+export PKG_CONFIG_PATH="/home/aa/teat/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/aa/teat/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/aa/teat/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/aa/teat/src:$ROS_PACKAGE_PATH"

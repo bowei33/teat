@@ -67,14 +67,14 @@ set(example_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(example_SOURCE_PREFIX /home/e219/teat/src/example)
-  set(example_DEVEL_PREFIX /home/e219/teat/devel)
+  set(example_SOURCE_PREFIX /home/aa/teat/src/example)
+  set(example_DEVEL_PREFIX /home/aa/teat/devel)
   set(example_INSTALL_PREFIX "")
   set(example_PREFIX ${example_DEVEL_PREFIX})
 else()
   set(example_SOURCE_PREFIX "")
   set(example_DEVEL_PREFIX "")
-  set(example_INSTALL_PREFIX /home/e219/teat/install)
+  set(example_INSTALL_PREFIX /home/aa/teat/install)
   set(example_PREFIX ${example_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/e219/teat/install/lib;/opt/ros/melodic/lib)
+    foreach(path /home/aa/teat/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

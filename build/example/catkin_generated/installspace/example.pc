@@ -1,4 +1,4 @@
-prefix=/home/e219/teat/install
+prefix=/home/aa/teat/install
 
 Name: example
 Description: Description of example
