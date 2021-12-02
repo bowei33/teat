@@ -1,2 +1,0 @@
-example
--DCATKIN_DEVEL_PREFIX=/home/e219/teat/devel -DCMAKE_INSTALL_PREFIX=/home/e219/teat/install -G Unix Makefiles
