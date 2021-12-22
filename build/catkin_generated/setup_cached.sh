@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/iclab-public/teat/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/iclab-public/teat/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/iclab-public/teat/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/iclab-public/teat/src:$ROS_PACKAGE_PATH"
